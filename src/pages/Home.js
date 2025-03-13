@@ -23,6 +23,12 @@ function Home() {
                     Store
                 </Link>
             </Col>
+            <Col>
+                <Link to={"/Store"}>
+                    <Image src="./public/Menu.png" thumbnail />
+                    Cart
+                </Link>
+            </Col>
             </Row>
 
         </div>

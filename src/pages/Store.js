@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Carousel } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
@@ -9,12 +10,12 @@ function Store() {
     function llenar_fotos(data){
         let target = document.getElementById('Carrusel');
         console.log(data[0]);
-
-        target.innerHTML = "data";
+        
+        target.innerHTML = data[0]["Imagen"];
 
     }
     
-    function {
+    function getContent(){
         let mockarooApiKey = '066bd6d0';
         let url = `https://api.mockaroo.com/api/269d7510?count=7&key=${mockarooApiKey}`;
 
