@@ -38,7 +38,7 @@ function LoginForm() {
           <Form.Text className="text-muted">Forgot password?</Form.Text>
         </Form.Group>
 
-        {error && <p style={{ color: "red" }}>La contraseña debe tener entre 5 y 8 caracteres.</p>}
+        {error && <p style={{ color: "red" }}>The password must be between 5 and 8 characters long.</p>}
 
         <Button variant="primary" type="submit">
           Submit

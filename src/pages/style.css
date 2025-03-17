@@ -1,0 +1,15 @@
+.menu-header {
+    background-color: #00796B; /* Color azul verdoso */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu-title {
+    font-size: 50pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
